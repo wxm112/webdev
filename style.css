@@ -19,12 +19,16 @@ body {
   height: 100%;
   display: inline-block;
 }
+
+
 #user-list {
   border-left: solid 1px #452389;
   width: 200px;
   height: 100%;
   display: inline-block;
 }
+
+
 
 #chat-panel{
   background-color: green;
@@ -56,4 +60,9 @@ button {
     right:10px;
     top: 10px;
     
+}
+
+ul {
+    padding: 20px;
+    margin: 10px;
 }
