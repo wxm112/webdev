@@ -10,8 +10,20 @@ body {
   margin-top: 100px;
   margin-left:100px;
   margin-right:100px;
-  padding: 20px;
-  height: calc(100% - 332px) ;
+/*  padding: 20px;*/
+  height: calc(100% - 292px) ;
+}
+
+#main-panel {
+  width: calc(100% - 205px);
+  height: 100%;
+  display: inline-block;
+}
+#user-list {
+  border-left: solid 1px #452389;
+  width: 200px;
+  height: 100%;
+  display: inline-block;
 }
 
 #chat-panel{
