@@ -1,3 +1,32 @@
 body {
   background-color: #e0e0e0;
+  padding: 0;
+  margin: 0;
+}
+
+#top-panel{
+  background-color: lightblue;
+  border: solid 1px lightpink;
+  margin-top: 100px;
+  margin-left:100px;
+  margin-right:100px;
+  padding: 20px;
+  height: calc(100% - 332px) ;
+}
+
+#chat-panel{
+  background-color: green;
+  border-bottom: solid 1px lightpink;
+  border-left: solid 1px lightpink;
+  border-right: solid 1px lightpink;
+
+  margin-left:100px;
+  margin-right:100px;
+  margin-bottom:100px;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: calc(100% - 242px);
+
 }
