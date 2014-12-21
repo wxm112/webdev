@@ -42,3 +42,18 @@ body {
   width: calc(100% - 242px);
 
 }
+
+button {
+    display: inline-block;
+    height: 30px;
+    width: 90px;
+    background: grey;
+    border: 2px solid red;
+    
+    color: black;
+    font-weight: bold;
+    position:absolute;
+    right:10px;
+    top: 10px;
+    
+}
