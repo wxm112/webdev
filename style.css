@@ -67,7 +67,34 @@ ul {
     margin: 10px;
 }
 
-input[type="text"]{
+ul.messages {
+  list-style-type: none;
+}
+
+ul.users {
+  list-style-type: circle;
+}
+
+ul.users li {
+  background-color: pink;
+}
+
+/*elementType {*/
+/*  this applies to elements of type x*/
+/*  <x>asdasd</x>*/
+/*}*/
+
+/*#id {*/
+/*  this applies to the element with id "id"
+  <div id="id">...</div>*/
+/*}*/
+
+/*.class-name {
+
+}*/
+
+
+input.beautiful-input-field {
   width:100%;
   height:40px;
   border: none;
